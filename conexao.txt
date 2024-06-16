@@ -1,0 +1,16 @@
+<?php
+$host = 'localhost';
+$user = 'root';
+$password = '20010828Mv@#';
+$database = 'db_financeiro';
+
+// Estabelece a conexão
+$conexao = mysqli_connect($host, $user, $password, $database);
+
+// Verifica se houve erro na conexão
+if (mysqli_connect_errno()) {
+    echo "Erro na conexão: " . mysqli_connect_error();
+} else {
+    echo "Conectado com sucesso";
+}
+?>

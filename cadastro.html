@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../static/css/styles1.css" />
+    <link rel="shortcut icon" href="../static/img/logo-bussola.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Cadastro</h2>
+      <form action="/cadastrar" method="POST">
+        <div class="parte3">
+          <div class="parte1">
+            <div class="form-group">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required />
+            </div>
+            <div class="form-group">
+              <label for="senha">Senha:</label>
+              <input type="password" id="senha" name="senha" required />
+            </div>
+            <div class="form-group">
+              <label for="confirmar-senha">Confirmar Senha:</label>
+              <input
+                type="password"
+                id="confirmar-senha"
+                name="confirmar_senha"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="cpf">CPF:</label>
+              <input type="text" id="cpf" name="cpf" required />
+            </div>
+            <div class="form-group">
+              <label for="data-nascimento">Data de Nascimento:</label>
+              <input
+                type="date"
+                id="data-nascimento"
+                name="data_nascimento"
+                required
+              />
+            </div>
+          </div>
+          <div class="parte2">
+            <div class="form-group">
+              <label for="saldo">Saldo:</label>
+              <input type="number" id="saldo" name="saldo" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="despesas">Despesas:</label>
+              <input type="number" id="despesas" name="despesas" required />
+            </div>
+            <div class="form-group">
+              <label for="limite-gastos">Limite de Gastos:</label>
+              <input
+                type="number"
+                id="limite-gastos"
+                name="limite_gastos"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="usuario">Nome de Usuário:</label>
+              <input type="text" id="usuario" name="usuario" required />
+            </div>
+          </div>
+        </div>
+        <a href="lobi.html"><button type="button">Cadastrar</button></a>
+      </form>
+    </div>
+  </body>
+</html>

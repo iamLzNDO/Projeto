@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url("../img/fundo_lobi.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 30px;
+}
+.header-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header button {
+  background-color: #ffffff;
+  border: 2px solid #7af;
+  color: #7af;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+header button:hover {
+  background-color: hsl(214, 39%, 49%);
+  color: #ffffff;
+}
+.header-button span {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #ffffff;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.graph-container {
+  display: flex;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+.graph {
+  width: 50%;
+}
+.side-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 30px 0px;
+  justify-content: space-between;
+}
+.side-buttons button {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 2px solid #7af;
+  color: #7af;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.side-buttons button:hover {
+  background-color: #4c87af;
+  color: #ffffff;
+}
+.side-buttons button span {
+  margin: 1px 40px;
+  white-space: nowrap;
+  color: #000000;
+  font-size: 11px;
+}
